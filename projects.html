@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects | Kolla Durga Bhavani</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+        content="Projects by Kolla Durga Bhavani, including an Emotion-Based Music Recommendation System and web development work." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="home.html" class="logo">Kolla Durga Bhavani</a>
+
+      <nav class="nav">
+        <a href="home.html" class="btn-link">Home</a>
+        <a href="about.html" class="btn-link">About</a>
+        <a href="skills.html" class="btn-link">Skills</a>
+        <a href="projects.html" class="btn-link">Projects</a>
+        <a href="contact.html" class="btn-link">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle4" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="container">
+      <h1>Projects</h1>
+      <p>
+        These are some of the key projects that showcase my skills in web
+        development and machine learning.
+      </p>
+
+      <div class="projects-grid">
+        <!-- Project 1: Emotion-Based Music Recommendation System -->
+        <article class="project-card">
+          <div class="project-media">
+            <div class="screenshot-placeholder">
+              <img src="images/Musicrecsys.png" alt="Kolla Durga Bhavani portrait" />     
+            </div>
+          </div>
+          <div class="project-content">
+            <h2>Emotion-Based Music Recommendation System</h2>
+            <p>
+              Designed and implemented a deep‑learning based system that
+              recommends songs according to the user’s detected emotion
+              (happy, sad, angry, surprised, scared, disgust, neutral). [file:6]
+            </p>
+            <p>
+              The system uses facial expressions captured through a webcam and
+              maps them to suitable playlists using a combination of
+              convolutional neural networks, content‑based filtering, and
+              external music APIs. [file:6]
+            </p>
+            <ul class="project-meta">
+              <li><strong>Tech stack:</strong> Python, OpenCV, CNN, Flask, HTML, CSS</li>
+              <li><strong>Key contributions:</strong> model training, integration with Flask,
+                  and playlist recommendation logic</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Project 2: Sample Web App -->
+        <article class="project-card">
+          <div class="project-media">
+            <div class="screenshot-placeholder">
+              <img src="images/Myportfolioss.png" alt="Kolla Durga Bhavani portrait" /> 
+            </div>
+          </div>
+          <div class="project-content">
+            <h2>Responsive Portfolio Website</h2>
+            <p>
+              Developed this personal portfolio website to present my skills,
+              projects, and contact information in a clean and professional way.
+            </p>
+            <p>
+              The site is fully responsive, with a reusable layout, mobile menu,
+              and structured content sections suitable for recruiters.
+            </p>
+            <ul class="project-meta">
+              <li><strong>Tech stack:</strong> HTML, CSS, JavaScript</li>
+              <li><strong>Focus:</strong> clean UI, responsive design, and simple UX</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year4"></span> Kolla Durga Bhavani. All rights reserved.</p>
+      <!-- <p class="small">More projects and GitHub links can be added here in future.</p> -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Kolla Durga Bhavani</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description"
+        content="Contact details for Kolla Durga Bhavani – email, phone, LinkedIn, and GitHub." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="home.html" class="logo">Kolla Durga Bhavani</a>
+
+      <nav class="nav">
+        <a href="home.html" class="btn-link">Home</a>
+        <a href="about.html" class="btn-link">About</a>
+        <a href="skills.html" class="btn-link">Skills</a>
+        <a href="projects.html" class="btn-link">Projects</a>
+        <a href="contact.html" class="btn-link">Contact</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle5" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="container contact-grid">
+      <div>
+        <h1>Contact</h1>
+        <p>
+          If you would like to discuss opportunities, internships, or
+          collaborations, feel free to reach out using the details below. 
+        </p>
+
+        <div class="card">
+          <h2>Contact Details</h2>
+          <p><strong>Email:</strong>
+            <a href="mailto:durgabhavanikolla7@gmail.com">
+              durgabhavanikolla7@gmail.com
+            </a>
+          </p>
+          <p><strong>Phone:</strong>
+            <a href="tel:+917997445944">
+              +91 79974 45944
+            </a>
+          </p>
+          <p><strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/kolla-durga-bhavani" target="_blank" rel="noopener">
+              kolla-durga-bhavani
+            </a>
+          </p>
+          <p><strong>GitHub:</strong>
+            <a href="https://github.com/Durga15504" target="_blank" rel="noopener">
+              Durga15504
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <h2>Send a Message</h2>
+
+        
+        <form class="contact-form" action="https://formspree.io/f/your_form_id" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required />
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" />
+            
+            <label for="message">Message</label>
+
+            <textarea id="message" name="message" rows="4" placeholder="Write your message here" required></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <form class="contact-form" action="mailto:durgabhavanikolla7@gmail.com" method="POST" enctype="text/plain"></form>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year5"></span> Kolla Durga Bhavani. All rights reserved.</p>
+      <p class="small">Available for Software Developer and Web Developer roles.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
